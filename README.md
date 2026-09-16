@@ -5,7 +5,6 @@ This is how I personally set up my Debian for desktop use. This involves additio
 
 DISCLAIMER: This guide is not meant for beginners. It is meant as a means of hardening Debian without taking too much of the security into own hands.
 
-# Disclaimer
 # Step 1: Updating and upgrading
 To make sure the system is up to date and I'm downloading the latest software, run the following:
 ```
