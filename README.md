@@ -7,7 +7,7 @@ DISCLAIMER: This guide is not meant for beginners. It is meant as a means of har
 
 # Disclaimer
 # Step 1: Updating and upgrading
-To make sure my system is up to date and I'm downloading the latest software, run the following:
+To make sure the system is up to date and I'm downloading the latest software, run the following:
 ```
 sudo apt update && sudo apt full-upgrade
 ```
@@ -25,7 +25,7 @@ sudo ufw default deny incoming
 ```
 sudo ufw default allow outgoing
 ```
-And to check that its running correctly, I run
+And to check that its running correctly, run
 ```
 sudo ufw status verbose
 ```
