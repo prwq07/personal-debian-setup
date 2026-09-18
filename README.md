@@ -33,6 +33,7 @@ Here's the Debian Wiki for it: https://wiki.debian.org/Uncomplicated%20Firewall%
 # Step 3: security-misc
 To ensure further security hardening that's already been pre-configured by a cybersecurity team, i use `security-misc`. It is developed by Kicksecure. Kicksecure is a Linux Distro designed for in-depth security. This package adds a lot of extra security on top of what Debian already has, including permission hardening, extra kernel hardening and more. I enjoy this because it is an extra layer of defensive security already curated by people that know what they're doing. Here is the guide that i follow: https://www.kicksecure.com/wiki/Security-misc#Installation_of_security-misc. Writing it onto this guide would just be copying at this point. I recommend following the steps in the link.
 
+**A little disclaimer: using security-misc is an aggressive safety measure, and makes the computer less useful for something like gaming. I recommend dual booting a separate, less aggressively configured OS for basic gaming use**
 # Step 4: Is AppArmor still running?
 Run the following and ensure that AppArmor is active and running.
 
