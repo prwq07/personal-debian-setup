@@ -44,6 +44,11 @@ sudo aa-status
 sudo systemctl status apparmor.service
 ```
 
+## Step 4.1: Additional AppArmor profiles:
+For extra coverage, install these AppArmor profiles
+```
+sudo apt install apparmor-profiles apparmor-profiles-extra
+```
 # Step 5: A stylish desktop environment
 This step installs the standard KDE Plasma 6 desktop environment. Here is the wiki for this step: https://wiki.debian.org/KDE
 
